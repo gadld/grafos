@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[ViewController actionSheet:clickedButtonAtIndex:]:ViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "a">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ViewController animar:]:ViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[ViewController dibujarGrafo]:ViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[GraphView drawRect:]:GraphView.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[self viewController]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[Menu actionSheet:clickedButtonAtIndex:]:Menu.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "(__NSCFString *)codigo">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ViewController guardarGrafo]:ViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[PNBarChart setYLabels:]:PNBarChart.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[ViewController tappedNode:]:ViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "selectedNode1">
+            </PersistentString>
+            <PersistentString
+               value = "selectedNode2">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[VistaDeArcos drawRect:]:VistaDeArcos.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "accion">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

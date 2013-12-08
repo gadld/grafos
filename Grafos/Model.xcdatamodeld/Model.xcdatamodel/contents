@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="3400" systemVersion="13A603" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Algoritmo" syncable="YES">
+        <attribute name="codigo" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="complejidad_esp" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="complejidad_tem" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="funcion" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id_al" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="tecnica_diseno" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Arco" syncable="YES">
+        <attribute name="peso" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="destino" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Nodo" syncable="YES"/>
+        <relationship name="origen" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Nodo" syncable="YES"/>
+    </entity>
+    <entity name="Grafo" syncable="YES">
+        <attribute name="dirigido" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="id_gr" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="Iteration" syncable="YES">
+        <attribute name="time" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <relationship name="id_al" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Algoritmo" syncable="YES"/>
+    </entity>
+    <entity name="Nodo" syncable="YES">
+        <attribute name="dato" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id_nodo" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="id_gr" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Grafo" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Algoritmo" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="Iteration" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="Grafo" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="Nodo" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="Arco" positionX="0" positionY="0" width="0" height="0"/>
+    </elements>
+</model>
